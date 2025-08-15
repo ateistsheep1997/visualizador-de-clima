@@ -5,34 +5,34 @@ body {
 }
 
 header {
-    /* Header styling */
-    background-color: #4CAF50; /* Green background color */
-    color: white; /* Text color */
-    padding: 10px 20px; /* Padding around header */
-    text-align: center; /* Centered text */
+    /* Estilización del encabezado */
+    background-color: #4CAF50; /* Color de fondo verde */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Relleno alrededor del encabezado */
+    text-align: center; /* Texto centrado */
 }
 
 input[type='text'] {
-    /* Input field styling */
-    padding: 10px; /* Padding inside the input */
-    width: 80%; /* Input width */
-    margin: 10px 0; /* Margin for spacing */
+    /* Estilización del campo de entrada */
+    padding: 10px; /* Relleno dentro del campo de entrada */
+    width: 80%; /* Ancho del campo de entrada */
+    margin: 10px 0; /* Margen para el espaciado */
 }
 
 button {
-    /* Button styling */
-    padding: 10px 15px; /* Padding inside button */
-    background-color: #f9f9f9; /* Button background color */
-    border: 1px solid #ccc; /* Border styling */
-    cursor: pointer; /* Cursor changes to pointer on hover */
+    /* Estilización del botón */
+    padding: 10px 15px; /* Relleno dentro del botón */
+    background-color: #f9f9f9; /* Color de fondo del botón */
+    border: 1px solid #ccc; /* Estilización del borde */
+    cursor: pointer; /* El cursor cambia a puntero al pasar el mouse */
 }
 
 button:hover {
-    /* Button hover effect */
-    background-color: #e0e0e0; /* Change background on hover */
+    /* Efecto de hover en el botón */
+    background-color: #e0e0e0; /* Cambia el fondo al pasar el mouse */
 }
 
 #chartsContainer {
-    /* Charts container styling */
-    margin: 20px; /* Margin around charts container */
+    /* Estilización del contenedor de gráficos */
+    margin: 20px; /* Margen alrededor del contenedor de gráficos */
 }
