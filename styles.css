@@ -5,6 +5,7 @@ body {
 }
 
 header {
+    /* Header styling */
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -12,12 +13,14 @@ header {
 }
 
 input[type='text'] {
+    /* Input field styling */
     padding: 10px;
     width: 80%;
     margin: 10px 0;
 }
 
 button {
+    /* Button styling */
     padding: 10px 15px;
     background-color: #f9f9f9;
     border: 1px solid #ccc;
@@ -25,5 +28,6 @@ button {
 }
 
 #chartsContainer {
+    /* Charts container styling */
     margin: 20px;
 }
