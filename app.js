@@ -1,3 +1,4 @@
+// Constante que contiene la URL de la API de clima
 const API_URL = 'https://api.open-meteo.com/v1/forecast?';
 
 document.getElementById('searchButton').addEventListener('click', () => {
@@ -9,7 +10,6 @@ function fetchWeatherData(city) {
     // Aquí iría la lógica para llamar a la API y procesar los datos
     console.log(`Fetching weather data for ${city}`);
     // Ejemplo de llamada con axios
-the axios
     axios.get(`${API_URL}city=${city}`)
         .then(response => {
             console.log(response.data);
