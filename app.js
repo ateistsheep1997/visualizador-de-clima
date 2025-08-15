@@ -10,6 +10,7 @@ function fetchWeatherData(city) {
     // Aquí iría la lógica para llamar a la API y procesar los datos
     console.log(`Fetching weather data for ${city}`);
     // Ejemplo de llamada con axios
+    // Se corrige el parámetro de consulta para la ciudad
     axios.get(`${API_URL}city=${city}`)
         .then(response => {
             console.log(response.data);
