@@ -27,6 +27,11 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    /* Button hover effect */
+    background-color: #e0e0e0;
+}
+
 #chartsContainer {
     /* Charts container styling */
     margin: 20px;
